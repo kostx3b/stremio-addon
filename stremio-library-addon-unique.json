@@ -1,0 +1,28 @@
+{
+  "id": "user.library.import.unique",
+  "version": "1.0.0",
+  "name": "My Library (Unique)",
+  "description": "Addon containing unique IMDB entries from your library",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "id": "user-library-unique",
+      "type": "series",
+      "name": "Imported Library (Unique)",
+      "items": [
+        {
+          "id": "tt9288030",
+          "name": "Reacher",
+          "type": "series",
+          "poster": "https://images.metahub.space/poster/small/tt9288030/img"
+        }
+      ]
+    }
+  ]
+}
